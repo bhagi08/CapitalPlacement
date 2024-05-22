@@ -1,15 +1,16 @@
 According to the provided Figma designs, three NoSQL collections are created.
 
-1. Programs
+1. Programs<br>
     This is to store program details.
     ```{
 	"_id" : ObjectId("664c869d593e950d506ce350"),
 	"programId" : "1",
 	"title" : "Computer Science",
 	"description" : "This program is about..."
-}```
+}
+```
 
-2. ApplicationForms
+2. ApplicationForms<br>
     The employer can enter questions they need to ask when creating the application forms. Two arrays are used to store personal information and additional questions. 
     ```{
 	"_id" : ObjectId("664c870f593e950d506ce352"),
@@ -83,9 +84,10 @@ According to the provided Figma designs, three NoSQL collections are created.
 			"questionType" : "Yes/No"
 		}
 	]
-}```
+}
+```
 
-3. Application
+3. Application<br>
    The data that the candidate fills in is stored in this collection.
    ```{
 	"_id" : ObjectId("664d6fcb84b3fc2104fa00db"),
@@ -113,7 +115,8 @@ According to the provided Figma designs, three NoSQL collections are created.
 			"answer" : "No"
 		}
 	]
-}```
+}
+```
 
 To manage data in these collections, five models have been used:
 
